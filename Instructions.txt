@@ -1,0 +1,50 @@
+----------------------------------------------------------------------USER MANUAL--------------------------------------------------------------------------------------
+In Main Page:
+	Corporate banking page is under construction.	
+	There is not much database involved in this page. So there is no worry about being hacked.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In Register Page:
+	Give all fields except email id and you can successfully register. You can give the email id later in update profile link.
+	Password mismatch leads to an error.
+	Any empty field throws an error.
+	Assume the bank database resides in the command prompt and the database is assumed to be a live server giving the database values dynamically as input.
+	As soon as the registered successfully message appears a new record is created in the database.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In MainFrame Page:
+	The AccountField is hackable. Try giving a special character and check. The account field is a "Long datatype" field.
+	The password is not editable through our keyboard. Use the virtual keyboard to type in it. Since the virtual keyboard is used, any sort of hacks can be 
+	avoided. Unless and until the iser gives his exact password, it won't login.
+	Reset buttons resets all text fields.
+	Forgot password button requires the account number as input. If the account number field is empty it throws an error.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In Processing Page:
+	You can't close the window while it is processing.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In InsideAccFrame Page:
+	The menu bar on the side as focus sensitive. There is no need to click on them.
+	Each menu makes visible a set of options.
+	Add benficiary to your account and then send money using the transfer menu.
+	The view account menu shows the balance, minimum balance, withdrawable amount.
+	The amount to be transferred can be entered using keypad only. Other fields can edited using your laptop or PC keyboard.
+	Also note that typing on any text field and moving to another menu will lose the text field contents.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In PinFrame Page:
+	The Pin is a three characters long string.
+	Use only the virtual keyboard available.
+	Navigation possible from this page to previous page.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In the Transferring Page:
+	Here there is a possibility to close window while processing. This is used to simulate exactly an internet oriented e-banking where there is every 
+	possibility of connectivity failure.
+	Note if the Balance has changed.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+In the ReportPage:
+	Clicking on print, opens a save page.
+	Enter your file name along with .doc extension.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+General Instructions:
+	Only one transaction possible with a login similar to an ATM.
+	User needs to login again for next transaction.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	
